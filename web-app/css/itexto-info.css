@@ -1,0 +1,108 @@
+@CHARSET "UTF-8";
+
+img {
+	border-style: none;	
+}
+
+body {
+	background: white;
+	font-size: 14px;
+	font-family: Arial, sans-serif;	
+}
+
+h1 {
+	font-size: 2.0em;	
+}
+
+h2 {
+	font-size: 1.6em;
+	margin-bottom: 1.0em;	
+}
+
+#top {
+	width: 100%;
+	margin-bottom: 0.5em;	
+}
+
+#nav {
+	width: 20%;
+	float: left;	
+	padding-top: 1.0em;
+}
+
+#nav ul li {
+	list-style: none;
+	padding-bottom: 0.5em;	
+}
+
+#content {
+	width: 75%;
+	float: left;
+		
+}
+
+.bean {
+	padding-bottom: 2.0em;
+	padding-top: 1.0em;
+	border-bottom: solid 1px black;	
+}
+
+.bean .info {
+	padding-left: 3.0em;	
+}
+
+ .bean ul {
+ 	margin-left: 3.0em;
+ }
+
+ .bean ul li {
+	list-style: circle;	
+}
+
+.bean_class, .bean_attributes, .bean_methods {
+	padding-top: 0.5em;
+	padding-bottom: 1.0em;	
+}
+
+.bean_name {
+	font-size: 1.2em;	
+}
+
+.controller .controller_name {
+	font-size: 1.2em;
+	padding-bottom: 0.6em;	
+}
+
+.controller ul {
+	padding-left: 3.0em;	
+}
+
+.controller ul li {
+	list-style: circle;	
+}
+
+.controller .info {
+	padding-left: 3.0em;	
+}
+
+.domain .domain_name {
+	font-size: 1.2em;
+	padding-bottom: 0.6em;	
+}
+
+.domain ul {
+	padding-left: 3.0em;	
+}
+
+.domain .info {
+	padding-left: 3.0em;	
+}
+
+.domain .domain_identifier {
+	padding-bottom: 0.4em;
+	font-weight: bold;	
+}
+
+.domain ul li {
+	list-style: circle;	
+}
