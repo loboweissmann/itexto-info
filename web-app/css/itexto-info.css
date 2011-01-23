@@ -22,12 +22,29 @@ h2 {
 #top {
 	width: 100%;
 	margin-bottom: 0.5em;	
+	border-bottom: solid 1 px black;
+	padding-bottom: 0.5em;
+	vertical-align: middle;
+}
+
+#fundo {
+	padding: 2.0em;
+	text-align: center;	
+	clear: both;
+}
+
+#wrapper {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;	
 }
 
 #nav {
 	width: 20%;
 	float: left;	
 	padding-top: 1.0em;
+	border-right: 1px #dedede dashed;
+	margin-right: 0.6em;
 }
 
 #nav ul li {
